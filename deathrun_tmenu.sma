@@ -27,21 +27,21 @@ public Spawn(id){
     return PLUGIN_CONTINUE;
 }
 
-public GiveXmas(id){
+/*public GiveXmas(id){
     if(!is_user_connected(id))
         return PLUGIN_CONTINUE;
     fm_give_item(id, "weapon_m3");
     cs_set_user_bpammo(id, CSW_M3, 200);
 
     return PLUGIN_HANDLED;
-}
+}*/
 
 public ShowMenu(id){
-    new menu = menu_create( "\rTerrorist Menu!:", "menu_handler" );
+    new menu = menu_create( "\r[FWO] \d- \wMenu Terrorista", "menu_handler" );
 
     menu_additem( menu, "\wDeagle", "", 0 );
     menu_additem( menu, "\w200Hp", "", 0 );
-    menu_additem( menu, "\wGrenades", "", 0 );
+    menu_additem( menu, "\wGranadas", "", 0 );
    
     menu_setprop( menu, MPROP_EXIT, MEXIT_ALL );
     
