@@ -1,15 +1,32 @@
 [en]
-KILL_PLAYER_MSG=You killed a player, now you have &x04%d &x01lives.
-DISPLAY_LIVES_MSG=You have &x04%d &x01lives, use the command &x04/revive &x01to use them.
-DENY_REVIVE_TEAM_MSG=You must be &x06CT &x01to use this command!
-DENY_REVIVE_ALIVE_MSG=There is only one &x06CT &x01alive, you cannot use this command!
-DENY_REVIVE_NO_LIVES_MSG=You have no lives left, kill a player to gain one.
-LIFE_USE_MSG=You have used a life, now you have &x04%d &x01lives.
+KILL_PLAYER_MSG = You killed a player, now you have &x04%d &x01lives.
+DISPLAY_LIVES_MSG = You have &x04%d &x01lives, use the command &x04/revive &x01to use them.
+DENY_REVIVE_TEAM_MSG = You must be &x06CT &x01to use this command.
+DENY_REVIVE_ALIVE_MSG = There is only one &x06CT &x01alive, you cannot use this command.
+DENY_REVIVE_NO_LIVES_MSG = You have no lives left, kill a player to gain one.
+LIFE_USE_MSG = You have used a life, now you have &x04%d &x01lives.
+
+[bp]
+KILL_PLAYER_MSG = Você matou um jogador, agora você tem &x04%d &x01vidas.
+DISPLAY_LIVES_MSG = Você tem &x04%d &x01vidas, use o comando &x06/reviver &x01para usá-las.
+DENY_REVIVE_TEAM_MSG = Você precisa ser &x06CT &x01para usar este comando.
+DENY_REVIVE_ALIVE_MSG = Só há um &x06CT &x01vivo, você não pode usar este comando.
+DENY_REVIVE_NO_LIVES_MSG = Você não tem mais vidas, mate um jogador para ganhar uma.
+LIFE_USE_MSG = Você usou uma vida, agora você tem &x04%d &x01vidas.
+
+[pt]
+KILL_PLAYER_MSG = Você matou um jogador, agora você tem &x04%d &x01vidas.
+DISPLAY_LIVES_MSG = Você tem &x04%d &x01vidas, use o comando &x06/reviver &x01para usá-las.
+DENY_REVIVE_TEAM_MSG = Você precisa ser &x06CT &x01para usar este comando.
+DENY_REVIVE_ALIVE_MSG = Só há um &x06CT &x01vivo, você não pode usar este comando.
+DENY_REVIVE_NO_LIVES_MSG = Você não tem mais vidas, mate um jogador para ganhar uma.
+LIFE_USE_MSG = Você usou uma vida, agora você tem &x04%d &x01vidas.
+
 
 [ro]
-KILL_PLAYER_MSG=Ai omorat un jucator, acum ai &x04%d &x01vieti.
-DISPLAY_LIVES_MSG=Ai &x04%d &x01vieti, foloseste comanda &x04/revive &x01pentru a le folosi
-DENY_REVIVE_TEAM_MSG=Trebuie sa fii &x06CT &x01pentru a folosi aceasta comanda!
-DENY_REVIVE_ALIVE_MSG=Este doar un &x06CT &x01in viata, nu poti folosi aceasta comanda!
-DENY_REVIVE_NO_LIVES_MSG=Nu ai nicio viata, omoara un jucator pentru a castiga una.
-LIFE_USE_MSG=Ti-ai folosit o viata, ai ramas cu &x04%d &x01vieti.
+KILL_PLAYER_MSG = Ai omorat un jucator, acum ai &x04%d &x01vieti.
+DISPLAY_LIVES_MSG = Ai &x04%d &x01vieti, foloseste comanda &x04/revive &x01pentru a le folosi
+DENY_REVIVE_TEAM_MSG = Trebuie sa fii &x06CT &x01pentru a folosi aceasta comanda!
+DENY_REVIVE_ALIVE_MSG = Este doar un &x06CT &x01in viata, nu poti folosi aceasta comanda!
+DENY_REVIVE_NO_LIVES_MSG = Nu ai nicio viata, omoara un jucator pentru a castiga una.
+LIFE_USE_MSG = Ti-ai folosit o viata, ai ramas cu &x04%d &x01vieti.
