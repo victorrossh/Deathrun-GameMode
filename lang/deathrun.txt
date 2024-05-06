@@ -1,15 +1,19 @@
 [en]
-NEW_TERRO_MSG = &x04%s &x01is the new &x07terrorist&x01.
-RESPAWN_END_MSG = Respawn Time has &x07ended&x01!
+DISCONNECT_MSG = The terrorist &x07%s& x01has disconnected.
+NEW_TERRO_MSG = &x07%s &x01is the new &x07terrorist&x01.
+RESPAWN_END_MSG = Respawn Time has &x07ended&x01.
 
 [bp]
-NEW_TERRO_MSG = &x04%s &x01é o novo &x07terrorista&x01.
+DISCONNECT_MSG = O terrorista &x07%s &x01se desconectou.
+NEW_TERRO_MSG = &x07%s &x01é o novo &x07terrorista&x01.
 RESPAWN_END_MSG = Respawn Time &x07terminou&x01.
 
 [ro]
-NEW_TERRO_MSG = &x04%s &x01este noul &x07terorist&x01!
+DISCONNECT_MSG = &x07%s &x01s-a deconectat!
+NEW_TERRO_MSG = &x07%s &x01este noul &x0Tterorist&x01!
 RESPAWN_END_MSG = Timpul de respawn s-a &x07terminat&x01!
 
 [pt]
-NEW_TERRO_MSG = &x04%s &x01é o novo &x07terrorista&x01.
+DISCONNECT_MSG = O terrorista &x07%s &x01se desconectou.
+NEW_TERRO_MSG = &x07%s &x01é o novo &x07terrorista&x01.
 RESPAWN_END_MSG = Respawn Time &x07terminou&x01.
