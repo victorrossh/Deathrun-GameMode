@@ -2,7 +2,7 @@
 #include <cstrike>
 #include <hamsandwich>
 #include <deathrun>
-#include <cromchat>
+#include <cromchat2>
 
 #define HUD_TASKID 9123132
 
@@ -35,7 +35,7 @@ public plugin_init( ) {
 	
 	g_hudObjectProgress = CreateHudSyncObj()
 
-	CC_SetPrefix("&x07[DR]");
+	CC_SetPrefix("&x04[FWO]");
 }
 
 public plugin_cfg() {
@@ -120,10 +120,10 @@ public GAMEMODE_VOTE_START(){
 public GAMEMODE_VOTE_MENU(id){
 	if(!is_user_connected(id))
 		return PLUGIN_HANDLED;
-	new menu = menu_create( "\rChoose the map gamemode!:", "GAMEMODE_VOTE_HANDLER" );
+	new menu = menu_create( "\r[FWO] \d- \wModo de Jogo", "GAMEMODE_VOTE_HANDLER" );
 
-	menu_additem( menu, "\yDeathrun", "", 0 );
-	menu_additem( menu, "\rRespawn", "", 0 );
+	menu_additem( menu, "\wDeathrun", "", 0 );
+	menu_additem( menu, "\wRespawn", "", 0 );
 
 	menu_display( id, menu, 0 );
 
@@ -140,7 +140,7 @@ public GAMEMODE_VOTE_HANDLER(id, menu, item){
 	new szName[32];
 	get_user_name(id, szName, 31);
 
-	CC_SendMessage(0, "%L", LANG_PLAYER, "VOTE_MSG" ,szName, item?"RESPAWN":"DEATHRUN");
+	CC_SendMessage(0, "%l", "VOTE_MSG" ,szName, item?"RESPAWN":"DEATHRUN");
 
 	g_votes[ item ]++;
 
@@ -153,16 +153,16 @@ public GAMEMODE_VOTE_END(){
 	g_bVoteInProgress = false;
 
 	if ( g_votes[DEATHRUN] > g_votes[RESPAWN] ){
-		CC_SendMessage(0, "%L", LANG_PLAYER, "GAMEMODE_WON_MSG", "Deathrun", g_votes[DEATHRUN]);
+		CC_SendMessage(0, "%l", "GAMEMODE_WON_MSG", "Deathrun", g_votes[DEATHRUN]);
 		gamemode_set_deathrun();
 	}
 	else if ( g_votes[DEATHRUN] < g_votes[RESPAWN] ){
-		CC_SendMessage(0, "%L", LANG_PLAYER, "GAMEMODE_WON_MSG", "Respawn", g_votes[RESPAWN]);
+		CC_SendMessage(0, "%l", "GAMEMODE_WON_MSG", "Respawn", g_votes[RESPAWN]);
 		gamemode_set_respawn();
 	}
 	else{
-		CC_SendMessage(0, "%L", LANG_PLAYER, "GAMEMODE_EQUAL_MSG");
-		CC_SendMessage(0, "%L", LANG_PLAYER, "GAMEMODE_RANDOM_MSG");
+		CC_SendMessage(0, "%l", "GAMEMODE_EQUAL_MSG");
+		CC_SendMessage(0, "%l", "GAMEMODE_RANDOM_MSG");
 
 		random(2)?gamemode_set_deathrun():gamemode_set_respawn();
 	}
@@ -183,12 +183,12 @@ public GAMEMODE_VOTE_PROGRESS(){
 	for ( new i; i < pnum; i++ )
 	{
 		tempid = players[i];
-		ShowSyncHudMsg(tempid, g_hudObjectProgress, "DEATHRUN %d Voturi^nRESPAWN %d Voturi^n^nTimp de vot ramas %d secunde", g_votes[DEATHRUN], g_votes[RESPAWN], floatround(g_fVoteTime));
+		ShowSyncHudMsg(tempid, g_hudObjectProgress, "Deathrun %d votos^nRespawn %d votos^n^nTempo restante de votação %d segundos", g_votes[DEATHRUN], g_votes[RESPAWN], floatround(g_fVoteTime));
 	}
 }
 
 public gamemode_set_respawn(){
-	CC_SendMessage(0, "%L", LANG_PLAYER, "GAMEMODE_ACTIVATED_MSG", "Respawn");
+	CC_SendMessage(0, "%l", "GAMEMODE_ACTIVATED_MSG", "Respawn");
 	if(g_bEnabled && !is_deathrun_enabled()) return PLUGIN_CONTINUE;
 	g_bEnabled = true;
 
@@ -204,7 +204,7 @@ public gamemode_set_respawn(){
 }
 
 public gamemode_set_deathrun(){
-	CC_SendMessage(0, "%L", LANG_PLAYER, "GAMEMODE_ACTIVATED_MSG", "Deathrun");
+	CC_SendMessage(0, "%l", "GAMEMODE_ACTIVATED_MSG", "Deathrun");
 	if(!g_bEnabled && is_deathrun_enabled()) return PLUGIN_CONTINUE;
 	g_bEnabled = false;
 
