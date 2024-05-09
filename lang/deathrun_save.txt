@@ -47,3 +47,8 @@ MSG_SAVE = &x01Трябва да използвате командата&x06 /re
 
 MSG_NOT_ALIVE = &x01Bu komutu kullanmak için yaşamalısınız.
 MSG_SAVE = &x06/save&x01 komutunu tekrar kullanmak için&x06 /reset&x01 komutunu kullanmanız gerekiyor.
+
+[de]
+
+MSG_NOT_ALIVE = &x01Du musst am Leben sein, um diesen Befehl zu verwenden.
+MSG_SAVE = &x01Du musst den Befehl &x06/reset&x01 verwenden, um &x06/save&x01 erneut zu verwenden.

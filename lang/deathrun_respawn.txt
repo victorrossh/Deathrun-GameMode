@@ -1,4 +1,5 @@
 [en]
+
 VOTE_MSG = &x04%s &x01voted for &x07%s&x01!
 GAMEMODE_WON_MSG = &x04%s &x01won by &x04%d &x01votes!
 GAMEMODE_EQUAL_MSG = There was a &x07tie &x01between the two options!
@@ -6,6 +7,7 @@ GAMEMODE_RANDOM_MSG = A &x07gamemode &x01will be chosen randomly!
 GAMEMODE_ACTIVATED_MSG = &x07%s gamemode &x01was activated!
 
 [bp]
+
 VOTE_MSG = &x04%s &x01votou em &x07%s&x01.
 GAMEMODE_WON_MSG = &x04%s &x01ganhou com &x04%d &x01votos.
 GAMEMODE_EQUAL_MSG = Houve um &x07empate &x01entre as duas opções.
@@ -13,6 +15,7 @@ GAMEMODE_RANDOM_MSG = Um &x07gamemode &x01será escolhido aleatoriamente.
 GAMEMODE_ACTIVATED_MSG = &x07%s gamemode &x01foi ativo.
 
 [ro]
+
 VOTE_MSG = &x04%s &x01a votat pentru &x07%s&x01!
 GAMEMODE_WON_MSG = &x07%s &x01a castigat cu &x04%d &x01voturi!
 GAMEMODE_EQUAL_MSG = A fost &x07egalitate &x01intre cele doua optiuni!
@@ -20,8 +23,65 @@ GAMEMODE_RANDOM_MSG = Un &x07gamemode &x01o sa fie ales random!
 GAMEMODE_ACTIVATED_MSG = &x07%s gamemode &x01a fost activat!
 
 [pt]
+
 VOTE_MSG = &x04%s &x01votou em &x07%s&x01.
 GAMEMODE_WON_MSG = &x04%s &x01ganhou com &x04%d &x01votos.
 GAMEMODE_EQUAL_MSG = Houve um &x07empate &x01entre as duas opções.
 GAMEMODE_RANDOM_MSG = Um &x07gamemode &x01será escolhido aleatoriamente.
 GAMEMODE_ACTIVATED_MSG = &x07%s gamemode &x01foi ativo.
+
+[fr]
+
+VOTE_MSG = &x04%s &x01a voté pour &x07%s&x01.
+GAMEMODE_WON_MSG = &x04%s &x01a gagné avec &x04%d &x01votes.
+GAMEMODE_EQUAL_MSG = Il y a eu une &x07égalité &x01entre les deux options.
+GAMEMODE_RANDOM_MSG = Un &x07gamemode &x01sera choisi au hasard.
+GAMEMODE_ACTIVATED_MSG = Le gamemode &x07%s &x01a été activé.
+
+[es]
+
+VOTE_MSG = &x04%s &x01votó por &x07%s&x01.
+GAMEMODE_WON_MSG = &x04%s &x01ganó con &x04%d &x01votos.
+GAMEMODE_EQUAL_MSG = Hubo un &x07empate &x01entre las dos opciones.
+GAMEMODE_RANDOM_MSG = Se elegirá un &x07gamemode &x01al azar.
+GAMEMODE_ACTIVATED_MSG = Se ha activado el gamemode &x07%s&x01.
+
+[ru]
+
+VOTE_MSG = &x04%s &x01проголосовал за &x07%s&x01.
+GAMEMODE_WON_MSG = &x04%s &x01победил с &x04%d &x01голосами.
+GAMEMODE_EQUAL_MSG = Произошло &x07равенство &x01между двумя вариантами.
+GAMEMODE_RANDOM_MSG = Будет выбран &x07gamemode &x01случайным образом.
+GAMEMODE_ACTIVATED_MSG = Активирован &x07%s &x01gamemode.
+
+[pl]
+
+VOTE_MSG = &x04%s &x01zagłosował na &x07%s&x01.
+GAMEMODE_WON_MSG = &x04%s &x01wygrał z &x04%d &x01głosami.
+GAMEMODE_EQUAL_MSG = Był &x07remis &x01między tymi dwoma opcjami.
+GAMEMODE_RANDOM_MSG = &x07Gamemode &x01zostanie wybrany losowo.
+GAMEMODE_ACTIVATED_MSG = &x07%s gamemode &x01został aktywowany.
+
+[bg]
+
+VOTE_MSG = &x04%s &x01гласува за &x07%s&x01.
+GAMEMODE_WON_MSG = &x04%s &x01печели с &x04%d &x01гласа.
+GAMEMODE_EQUAL_MSG = Има &x07равенство &x01между двете възможности.
+GAMEMODE_RANDOM_MSG = Ще бъде избран &x07гамод &x01на случаен принцип.
+GAMEMODE_ACTIVATED_MSG = Активиран е &x07%s &x01гамод.
+
+[tr]
+
+VOTE_MSG = &x04%s &x01&x07%s&x01 için oy kullandı.
+GAMEMODE_WON_MSG = &x04%s &x01&x04%d &x01oyla kazandı.
+GAMEMODE_EQUAL_MSG = İki seçenek arasında &x07beraberlik &x01oldu.
+GAMEMODE_RANDOM_MSG = Bir &x07gamemode &x01rastgele seçilecek.
+GAMEMODE_ACTIVATED_MSG = &x07%s gamemode &x01etkinleştirildi.
+
+[de]
+
+VOTE_MSG = &x04%s &x01hat für &x07%s&x01 gestimmt.
+GAMEMODE_WON_MSG = &x04%s &x01hat mit &x04%d &x01Stimmen gewonnen.
+GAMEMODE_EQUAL_MSG = Es gab eine &x07Unentschieden &x01zwischen den beiden Optionen.
+GAMEMODE_RANDOM_MSG = Ein &x07gamemode &x01wird zufällig ausgewählt.
+GAMEMODE_ACTIVATED_MSG = Der &x07%s gamemode &x01wurde aktiviert.
